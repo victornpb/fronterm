@@ -1,0 +1,26 @@
+#terminal{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    background: black;
+    color: white;
+}
+
+[name=output], [name=input] {
+    font-family: Menlo, Monaco, 'Courier New', 'Lucida Console', monospace;
+    font-size: 10pt;
+    width: 100%;
+    
+}
+
+[name=output] {
+    flex-grow: 1;
+    padding: 0.5em;
+    overflow: auto;
+}
+
+[name=input] {
+    height: 3em;
+}
